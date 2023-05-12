@@ -13,6 +13,7 @@ public class HomePage {
 	private WebElement Password;
 	@FindBy(xpath = "//a[@id='loginButton']")
 	private WebElement Login;
+	private WebElement Logout;
 	WebDriver driver;
 	
 	public HomePage(WebDriver driver)
